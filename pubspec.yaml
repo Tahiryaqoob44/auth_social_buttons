@@ -1,0 +1,35 @@
+name: auth_social_buttons
+description: Material buttons for logging into popular social networks, including Google, Facebook, Twitter and Microsoft.
+version: 2.0.4
+homepage: https://github.com/Tahiryaqoob44
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  assets:
+    - packages/auth_social_buttons/graphics/google-logo.pngss
+    - packages/auth_social_buttons/graphics/flogo-HexRBG-Wht-100.png
+    - packages/auth_social_buttons/graphics/Twitter_Logo_Blue.png
+    - packages/auth_social_buttons/graphics/ms-symbollockup_mssymbol_19.png
+    - packages/auth_social_buttons/graphics/apple_logo_black.png
+    - packages/auth_social_buttons/graphics/apple_logo_white.png
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Medium.ttf
+          weight: 500
+    - family: SF Pro
+      fonts:
+        - asset: fonts/SF-Pro-Medium.ttf
+          weight: 500
